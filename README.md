@@ -4,6 +4,20 @@ Salesforce DX is a development approach that brings source-driven development, t
 
 This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
 
+## Screenshots
+
+The project includes screenshots of the Student Management System UI and related setup views.
+
+### UI Screenshots
+
+- [Screenshot 1](Student%20management%20ss/Screenshot%202026-06-29%20161745.png)
+- [Screenshot 2](Student%20management%20ss/Screenshot%202026-06-29%20161810.png)
+- [Screenshot 3](Student%20management%20ss/Screenshot%202026-06-29%20162351.png)
+
+![Screenshot 1](Student%20management%20ss/Screenshot%202026-06-29%20161745.png)
+
+![Screenshot 2](Student%20management%20ss/Screenshot%202026-06-29%20161810.png)
+
 ## Prerequisites
 
 Before you start, make sure you have:
