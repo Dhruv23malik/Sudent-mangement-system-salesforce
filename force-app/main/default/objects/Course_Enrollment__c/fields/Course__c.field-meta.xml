@@ -5,9 +5,8 @@
     <referenceTo>Course__c</referenceTo>
     <relationshipLabel>Course Enrollments</relationshipLabel>
     <relationshipName>Course_Enrollments</relationshipName>
-    <relationshipOrder>1</relationshipOrder>
-    <reparentableMasterDetail>false</reparentableMasterDetail>
+
+    <deleteConstraint>SetNull</deleteConstraint>
     <trackHistory>false</trackHistory>
-    <type>MasterDetail</type>
-    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <type>Lookup</type>
 </CustomField>

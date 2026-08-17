@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
-    <decisions>
-        <name>Is_Completed</name>
-        <label>Is Completed</label>
-        <locationX>176</locationX>
-        <locationY>323</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Completed</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Completion_Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Completed</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_Student_Status</targetReference>
-            </connector>
-            <label>Completed</label>
-        </rules>
-    </decisions>
+
     <environments>Default</environments>
     <interviewLabel>Update Student Status On Graduation {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Student Status On Graduation</label>
@@ -64,7 +43,7 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Is_Completed</targetReference>
+            <targetReference>Update_Student_Status</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>

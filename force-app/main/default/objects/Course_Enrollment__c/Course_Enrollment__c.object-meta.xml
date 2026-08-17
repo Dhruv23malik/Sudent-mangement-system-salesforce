@@ -15,5 +15,5 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Course Enrollments</pluralLabel>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
