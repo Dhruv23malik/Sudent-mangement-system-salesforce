@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Course_Enrollment__c.Student__c</field>
+    </columns>
+    <columns>
+        <field>Course_Enrollment__c.Course__c</field>
+    </columns>
+    <columns>
+        <field>Course_Enrollment__c.Enrollment_Date__c</field>
+    </columns>
+    <columns>
+        <field>Course_Enrollment__c.Completion_Status__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Course_Enrollment__c.Completion_Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Course Enrollments</name>
+    <reportType>Course_Enrollments_with_Details</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Course_Enrollment__c.Enrollment_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

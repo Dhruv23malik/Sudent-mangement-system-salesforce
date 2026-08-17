@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Course_Enrollment__c</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Course Enrollments with Details</description>
+    <join>
+        <outerJoin>false</outerJoin>
+        <relationship>Course__r</relationship>
+    </join>
+    <label>Course Enrollments with Details</label>
+</ReportType>

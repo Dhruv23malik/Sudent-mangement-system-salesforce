@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Not_Completed_If_No_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Completion_Status__c, 'Completed') &amp;&amp; ISBLANK(Enrollment_Date__c)</errorConditionFormula>
+    <errorMessage>Completion Status cannot be Completed if Enrollment Date is blank.</errorMessage>
+</ValidationRule>
